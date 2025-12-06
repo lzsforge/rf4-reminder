@@ -1,7 +1,10 @@
 {
   "enable_logging": true,
+  "subject": "F12 按键提醒",
+  "custom_message": "您的电脑在 {timestamp} 触发了 F12 按键（来源：{source}）。",
   "rate_limit_seconds": 5,
   "max_emails_per_minute": 10,
   "include_system_info": false,
-  "custom_message": "您的电脑触发了 F12 按键！"
+  "play_sound": false,
+  "log_to_file": true
 }
