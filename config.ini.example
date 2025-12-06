@@ -1,0 +1,32 @@
+# F12 按键提醒系统配置文件
+# 请根据你的邮箱和SMTP服务器信息修改此文件
+
+# Gmail 配置示例
+sender_email=your_email@gmail.com
+sender_password=your_app_password
+smtp_server=smtp.gmail.com
+smtp_port=587
+receiver_email=receiver@gmail.com
+
+# 其他邮箱服务商配置示例（取消注释使用）：
+
+# QQ邮箱
+# sender_email=your_email@qq.com
+# sender_password=your_auth_code
+# smtp_server=smtp.qq.com
+# smtp_port=587
+# receiver_email=receiver@qq.com
+
+# Outlook/Office365
+# sender_email=your_email@outlook.com
+# sender_password=your_password
+# smtp_server=smtp-mail.outlook.com
+# smtp_port=587
+# receiver_email=receiver@outlook.com
+
+# 163邮箱
+# sender_email=your_email@163.com
+# sender_password=your_auth_code
+# smtp_server=smtp.163.com
+# smtp_port=587
+# receiver_email=receiver@163.com

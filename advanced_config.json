@@ -1,0 +1,7 @@
+{
+  "enable_logging": true,
+  "rate_limit_seconds": 5,
+  "max_emails_per_minute": 10,
+  "include_system_info": false,
+  "custom_message": "您的电脑触发了 F12 按键！"
+}
